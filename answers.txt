@@ -1,0 +1,12 @@
+1. HTTP is a base ruleset that all servers use to connect with each other
+2. A URL is an address to somewhere on the internet that substitutes IP addresses
+3. DNS converts the URL into an IP address
+4. A query string is additional information at the end of a URL that alters the content of the base URL
+5. GET and POST. GET is a simple request that doesn't change the information that a server already has, while a POST request alters the information on a server (ie. posting on social media)
+6. HTTP requests are sent to servers to request information to be sent back to the IP address that sent the request
+7. HTTP responses are servers sending information to an IP address that have sent an HTTP request for that information
+8. HTTP headers send additional information along side HTTP requests and responses. 
+    Request: Accept-Language: en-US,en;q=0.9
+    Response: Date: Mon, 14 Aug 2023 14:24:15 GMT
+9. The URL is converted into an IP address using DNS, the HTTP request is sent to that IP address, the server uses the HTTP request along with the accompianing query string to gather the
+correct information, that information is then sent back to the IP address that made the request.
